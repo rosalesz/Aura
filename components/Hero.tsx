@@ -33,9 +33,9 @@ const Hero: React.FC = () => {
           </div>
           
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold leading-none tracking-tighter text-white">
-            HEADWEAR <br />
+            Aura <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-500">
-              FUTURISTA
+              and Style
             </span>
           </h1>
           
