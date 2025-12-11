@@ -59,9 +59,9 @@ const Hero: React.FC = () => {
           <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400 to-purple-600 rounded-2xl blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
           <div className="relative aspect-square rounded-2xl overflow-hidden border border-slate-700 bg-slate-800/50 backdrop-blur-sm">
             <img 
-              src="https://picsum.photos/800/800?random=1" 
+              src="https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800&auto=format&fit=crop" 
               alt="Hero Cap" 
-              className="w-full h-full object-cover mix-blend-overlay opacity-80 hover:scale-105 transition-transform duration-700"
+              className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-700"
             />
             
             {/* Overlay UI Elements */}

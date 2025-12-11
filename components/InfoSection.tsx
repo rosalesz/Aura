@@ -24,9 +24,10 @@ const InfoSection: React.FC = () => {
             <div className="order-2 lg:order-1 relative">
               <div className="absolute inset-0 border-2 border-cyan-400 translate-x-4 translate-y-4" />
               <img 
-                src="https://picsum.photos/800/600?random=20" 
+                // Imagen de Cartagena (calles coloridas)
+                src="https://images.unsplash.com/photo-1583531352515-8884af319dc1?q=80&w=800&auto=format&fit=crop" 
                 alt="Cartagena Street" 
-                className="relative z-10 w-full grayscale contrast-125 hover:grayscale-0 transition-all duration-700"
+                className="relative z-10 w-full grayscale contrast-125 hover:grayscale-0 transition-all duration-700 object-cover"
               />
             </div>
             
@@ -109,9 +110,10 @@ const InfoSection: React.FC = () => {
           {/* Map Placeholder */}
           <div className="mt-8 w-full h-64 bg-slate-800 border border-slate-700 relative overflow-hidden group">
             <img 
-              src="https://picsum.photos/1200/400?grayscale" 
+              // Imagen generica de mapa/ciudad aerea oscura
+              src="https://images.unsplash.com/photo-1524661135-423995f22d0b?q=80&w=1200&auto=format&fit=crop" 
               alt="Map Location" 
-              className="w-full h-full object-cover opacity-30 group-hover:opacity-50 transition-opacity"
+              className="w-full h-full object-cover opacity-40 group-hover:opacity-60 transition-opacity"
             />
             <div className="absolute inset-0 flex items-center justify-center">
               <button className="bg-white/10 backdrop-blur border border-white/20 text-white px-6 py-2 font-mono text-sm hover:bg-white/20 transition-colors">

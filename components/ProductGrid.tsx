@@ -8,7 +8,8 @@ const MOCK_PRODUCTS: Product[] = [
     name: 'Getsemaní Neon',
     price: 120000,
     currency: 'COP',
-    image: 'https://picsum.photos/400/500?random=10',
+    // Gorra estilo urbano oscura
+    image: 'https://images.unsplash.com/photo-1556306535-0f09a537f0a3?q=80&w=600&auto=format&fit=crop',
     tag: 'MÁS VENDIDO',
     features: ['Resistente al Agua', 'Reflectivo']
   },
@@ -17,7 +18,8 @@ const MOCK_PRODUCTS: Product[] = [
     name: 'Walled City Noir',
     price: 145000,
     currency: 'COP',
-    image: 'https://picsum.photos/400/500?random=11',
+    // Gorra negra minimalista
+    image: 'https://images.unsplash.com/photo-1533827432537-70133748f5c8?q=80&w=600&auto=format&fit=crop',
     tag: 'NUEVO DROP',
     features: ['Gamuza Premium', 'Ajustable']
   },
@@ -26,7 +28,8 @@ const MOCK_PRODUCTS: Product[] = [
     name: 'Rosario Azure',
     price: 110000,
     currency: 'COP',
-    image: 'https://picsum.photos/400/500?random=12',
+    // Gorra azul/colorida
+    image: 'https://images.unsplash.com/photo-1575428652377-a2697240dac5?q=80&w=600&auto=format&fit=crop',
     tag: 'LIMITADO',
     features: ['Transpirable', 'Ligera']
   },
@@ -35,7 +38,8 @@ const MOCK_PRODUCTS: Product[] = [
     name: 'Bocagrande Sun',
     price: 135000,
     currency: 'COP',
-    image: 'https://picsum.photos/400/500?random=13',
+    // Gorra clara/lifestyle
+    image: 'https://images.unsplash.com/photo-1521369909029-2afed882baee?q=80&w=600&auto=format&fit=crop',
     tag: 'CLÁSICO',
     features: ['Protección UV', 'Secado Rápido']
   }
