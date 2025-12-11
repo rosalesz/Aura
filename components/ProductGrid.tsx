@@ -29,7 +29,7 @@ const MOCK_PRODUCTS: Product[] = [
     price: 110000,
     currency: 'COP',
     // Gorra azul/colorida
-    image: 'https://images.unsplash.com/photo-1575428652377-a2697240dac5?q=80&w=600&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1589831377283-33cb1cc6bd5d?q=80&w=600&auto=format&fit=crop',
     tag: 'LIMITADO',
     features: ['Transpirable', 'Ligera']
   },
